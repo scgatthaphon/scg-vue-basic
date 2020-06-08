@@ -1,4 +1,4 @@
-# scg-vue-basic
+# scg-vue-basic 👨‍🏫
 
 Vue.js basic tutorial for class
 
