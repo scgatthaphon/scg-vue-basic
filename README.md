@@ -1,4 +1,6 @@
-# scg-vue
+# scg-vue-basic
+
+Vue.js basic tutorial for class
 
 ## Project setup
 ```
