@@ -1,17 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <LogoComponent />
+    <FirstComponent msg="First Component" />
+    <SecondComponent msg="Second Component" />
+    <hr>
+    <InputBindingComponent />
+    <hr>
+    <LifeCycleComponent />
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LogoComponent from './components/LogoComponent.vue'
+import FirstComponent from './components/FirstComponent.vue'
+import SecondComponent from './components/SecondComponent.vue'
+import InputBindingComponent from './components/InputBindingComponent.vue'
+import LifeCycleComponent from './components/LifeCycleComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LogoComponent,
+    FirstComponent,
+    SecondComponent,
+    InputBindingComponent,
+    LifeCycleComponent
   }
 }
 </script>
